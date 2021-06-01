@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+@import "variables";
+
+body {
+  font-family: "Red Hat Text", "Open Sans";
+  margin: 0;
+  background: $very-dark-blue;
+}
+
+.wrapper {
+  background: url("../images/bg-stars.svg");
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  .main {
+    display: flex;
+    height: calc(100vh - 197px);
+    align-items: center;
+    margin: 0px auto;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+
+    @media screen and (max-width: 992px) {
+      width: 90%;
+    }
+
+    &__title {
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1ch;
+      margin-bottom: 4vh;
+      text-align: center;
+    }
+
+    &__countdown-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 25px;
+
+      .unit-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 10vw;
+
+        @media screen and (max-width: 992px) {
+          width: 15vw;
+        }
+
+        @media screen and (max-width: 768px) {
+          width: 20vw;
+        }
+
+        @media screen and (max-width: 576px) {
+          min-width: 20%;
+        }
+
+        &__number {
+          color: $soft-red;
+          width: 100%;
+          height: 10vw;
+          position: relative;
+          display: flex;
+          flex-direction: column-reverse;
+          margin-bottom: 1vw;
+
+          @media screen and (max-width: 992px) {
+            height: 15vw;
+          }
+
+          @media screen and (max-width: 768px) {
+            height: 20vw;
+          }
+
+          &__layer,
+          &__layer-top {
+            width: 100%;
+            height: 50%;
+            border-radius: 10px;
+          }
+
+          &__layer {
+            background-color: $dark-desaturated-blue;
+          }
+
+          &__layer-top {
+            position: absolute;
+            top: 0;
+            background-color: $dark-desaturated-blue;
+            opacity: 0.5;
+            z-index: 10;
+            border-bottom: 1px $very-dark-blue solid;
+          }
+
+          span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5vw;
+          }
+        }
+
+        &__text {
+          color: $grayish-blue;
+          text-transform: uppercase;
+          font-size: 0.5rem;
+          letter-spacing: 1ch;
+
+          @media screen and (max-width: 459px) {
+            font-size: 0.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: 197px;
+    background: url("../images/pattern-hills.svg");
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .social-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+
+      &__facebook,
+      &__pinterest,
+      &__instagram {
+        height: 24px;
+        width: 24px;
+
+        &:hover {
+          background-color: $soft-red;
+        }
+      }
+
+      &__facebook {
+        mask: url("../images/icon-facebook.svg");
+        background-color: #8385a9;
+      }
+
+      &__pinterest {
+        mask: url("../images/icon-pinterest.svg");
+        background-color: #8385a9;
+      }
+
+      &__instagram {
+        mask: url("../images/icon-instagram.svg");
+        background-color: #8385a9;
+      }
+    }
+  }
+}
