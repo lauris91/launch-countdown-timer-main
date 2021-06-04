@@ -10,18 +10,22 @@ const CountdownContainer = ({ days, hours, minutes, seconds }) => {
 
   useEffect(() => {
     setShuffleMinutes(!shuffleMinutes);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [minutes]);
 
   useEffect(() => {
     setShuffleSeconds(!shuffleSeconds);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [seconds]);
 
   useEffect(() => {
     setShuffleHours(!shuffleHours);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hours]);
 
   useEffect(() => {
     setShuffleDays(!shuffleDays);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [days]);
 
   return (

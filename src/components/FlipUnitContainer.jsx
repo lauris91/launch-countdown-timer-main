@@ -4,10 +4,6 @@ const FlipUnitContainer = ({ unit, digit, shuffle }) => {
   let currentDigit = digit;
   let nextDigit = parseInt(digit) + 1;
 
-  //   if (unit === "minutes") {
-  //     console.log("shufle ", shuffle);
-  //   }
-
   if (unit !== "hours") {
     nextDigit = nextDigit === 60 ? 0 : nextDigit;
   } else {
