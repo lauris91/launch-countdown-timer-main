@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/launch-countdown-timer-main/static/css/main.6b81a8b0.chunk.css",
+    "main.js": "/launch-countdown-timer-main/static/js/main.6323e9f3.chunk.js",
+    "main.js.map": "/launch-countdown-timer-main/static/js/main.6323e9f3.chunk.js.map",
+    "runtime-main.js": "/launch-countdown-timer-main/static/js/runtime-main.90454c24.js",
+    "runtime-main.js.map": "/launch-countdown-timer-main/static/js/runtime-main.90454c24.js.map",
+    "static/js/2.c71cebdf.chunk.js": "/launch-countdown-timer-main/static/js/2.c71cebdf.chunk.js",
+    "static/js/2.c71cebdf.chunk.js.map": "/launch-countdown-timer-main/static/js/2.c71cebdf.chunk.js.map",
+    "index.html": "/launch-countdown-timer-main/index.html",
+    "static/css/main.6b81a8b0.chunk.css.map": "/launch-countdown-timer-main/static/css/main.6b81a8b0.chunk.css.map",
+    "static/js/2.c71cebdf.chunk.js.LICENSE.txt": "/launch-countdown-timer-main/static/js/2.c71cebdf.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/launch-countdown-timer-main/static/media/pattern-hills.815d688f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90454c24.js",
+    "static/js/2.c71cebdf.chunk.js",
+    "static/css/main.6b81a8b0.chunk.css",
+    "static/js/main.6323e9f3.chunk.js"
+  ]
+}
