@@ -2,7 +2,7 @@
   "name": "launch-countdown-timer-main",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://viktors91.github.io/launch-countdown-timer-main",
+  "homepage": "http://lauris91.github.io/launch-countdown-timer-main",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
